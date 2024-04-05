@@ -1,0 +1,30 @@
+﻿[
+  {
+    "Nome": "Pyro",
+    "Cor": "#FF6640"
+  },
+  {
+    "Nome": "Hydro",
+    "Cor": "#00C0FF"
+  },
+  {
+    "Nome": "Anemo",
+    "Cor": "#32D7A0"
+  },
+  {
+    "Nome": "Electro",
+    "Cor": "#AF8EC1"
+  },
+  {
+    "Nome": "Dendro",
+    "Cor": "#90CC00"
+  },
+  {
+    "Nome": "Cryo",
+    "Cor": "#80FFFF"
+  },
+  {
+    "Nome": "Geo",
+    "Cor": "#FFAC00"
+  }
+]

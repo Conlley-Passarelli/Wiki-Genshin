@@ -1,0 +1,317 @@
+﻿[
+  {
+    "Numero": 1,
+    "Nome": "Amber",
+    "Descricao": "Como a única Aventureira remanescente dos Cavaleiros de Favonius, ela está sempre pronta para ajudar os cidadãos de Mondstadt. Seja algo simples ou talvez uma tarefa mais desafiadora.",
+    "Elemento": [ "Pyro" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "10 de Agosto",
+    "Imagem": "\\img\\personagens\\Amber.jpg"
+  },
+  {
+    "Numero": 2,
+    "Nome": "Bennett",
+    "Descricao": "Um órfão descoberto por um aventureiro idoso quando bebê, Bennett foi criado na Guilda de Aventureiros de Mondstadt. Ele é o único membro da Equipe de aventura de Benny, já que todos os outros deixaram a equipe depois de experimentar o infortúnio constante que o segue.",
+    "Elemento": [ "Pyro" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "29 de Fevereiro",
+    "Imagem": "\\img\\personagens\\Bennett.jpg"
+  },
+  {
+    "Numero": 3,
+    "Nome": "Diluc",
+    "Descricao": "Nascido na influente Família Ragnvindr, Diluc é o atual proprietário do Adega do Alvorecer e um nobre de alta estima na sociedade de Mondstadt. Embora um incidente anterior o tenha levado a se separar dos Cavaleiros de Favonius, ele continua a proteger Mondstadt à sua própria maneira.",
+    "Elemento": [ "Pyro" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "30 de Abril",
+    "Imagem": "\\img\\personagens\\Diluc.jpg"
+  },
+  {
+    "Numero": 4,
+    "Nome": "Hutao",
+    "Descricao": "Hutao (inglês: Hu Tao; chinês: 胡桃 Hú Táo, Noz) é um personagem Pyro jogável em Genshin Impact. Ela é a 77ª Diretora da Funerária Wangsheng. Por algum motivo o nome da personagem em português é composto de uma única palavra, na maior partes das línguas ele é composto de duas palavras.",
+    "Elemento": [ "Pyro" ],
+    "Regiao": "Liyue",
+    "Aniversario": "15 de Julho",
+    "Imagem": "\\img\\personagens\\Hutao.jpg"
+  },
+  {
+    "Numero": 5,
+    "Nome": "Klee",
+    "Descricao": "A filha da intrépida - e destrutiva - aventureira Alice, Klee segue sua mãe de várias maneiras, para grande consternação dos Cavaleiros de Favonius a quem ela foi confiada.",
+    "Elemento": [ "Pyro" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "27 de Julho",
+    "Imagem": "\\img\\personagens\\Klee.jpg"
+  },
+  {
+    "Numero": 6,
+    "Nome": "Candace",
+    "Descricao": "Descendente de Al-Ahmar e Guardiã da Vila Aaru, Candace é gentil com os viajantes que a visitam, mas é implacável com aqueles que violam as regras da vila.",
+    "Elemento": [ "Hydro" ],
+    "Regiao": "Sumeru",
+    "Aniversario": "3 de Maio",
+    "Imagem": "\\img\\personagens\\Candace.jpg"
+  },
+  {
+    "Numero": 7,
+    "Nome": "Furina",
+    "Descricao": "Furina é a humanidade da Deusa da Justiça, Focalors, separada de sua divindade. Amaldiçoada com a imortalidade, ela supervisionou Fontaine como a Arconte Hydro atuante por 500 anos, a fim de realizar os planos do verdadeiro Arconte de enganar os Princípios Celestiais para salvar Fontaine de uma grande profecia. Após a morte dos Focalors e a destruição do Trono Divino do Arconte Hydro, ela abdicou de seu papel e agora vive sua vida como um ser humano comum.",
+    "Elemento": [ "Hydro" ],
+    "Regiao": "Fontaine",
+    "Aniversario": "13 de Outubro",
+    "Imagem": "\\img\\personagens\\Furina.jpg"
+  },
+  {
+    "Numero": 8,
+    "Nome": "Tartaglia",
+    "Descricao": "Childe é o Nº 11 dos Onze Mensageiros dos Fatui. Seguindo o perigo onde quer que vá, Childe está sempre ansioso por um desafio. Ele é considerado um dos membros mais perigosos dos Mensageiros.",
+    "Elemento": [ "Hydro" ],
+    "Regiao": "Snezhnaya",
+    "Aniversario": "20 de Julho",
+    "Imagem": "\\img\\personagens\\Tartaglia.jpg"
+  },
+  {
+    "Numero": 9,
+    "Nome": "Yelan",
+    "Descricao": "Uma pessoa misteriosa que afirma trabalhar para o Ministério dos Assuntos Civis de Liyue. No entanto, ela é na verdade a chefe da Casa de Chá Yanshang.",
+    "Elemento": [ "Hydro" ],
+    "Regiao": "Liyue",
+    "Aniversario": "20 de Abril",
+    "Imagem": "\\img\\personagens\\Yelan.jpg"
+  },
+  {
+    "Numero": 10,
+    "Nome": "Xingqiu",
+    "Descricao": "Ele é o segundo filho do dono da Guilda de Comerciantes de Feiyun, um grupo influente em Liyue, e também é um autoproclamado praticante das artes do Clã Guhua.",
+    "Elemento": [ "Hydro" ],
+    "Regiao": "Liyue",
+    "Aniversario": "9 de Outubro",
+    "Imagem": "\\img\\personagens\\Xingqiu.jpg"
+  },
+  {
+    "Numero": 11,
+    "Nome": "Jean",
+    "Descricao": "Descendente do prestigioso Clã Gunnhildr, Jean é a Grande Mestre Intendente em exercício dos Cavaleiros de Favonius. Ela está sempre ocupada lidando com distúrbios em Mondstadt e, claro, trabalhando incansavelmente para manter a Cidade da Liberdade.",
+    "Elemento": [ "Anemo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "14 de Março",
+    "Imagem": "\\img\\personagens\\Jean.jpg"
+  },
+  {
+    "Numero": 12,
+    "Nome": "Lynette",
+    "Descricao": "Uma assistente de mágico de poucas palavras. Sua personalidade é tão indecifrável quanto a de um gato.",
+    "Elemento": [ "Anemo" ],
+    "Regiao": "Fontaine",
+    "Aniversario": "2 de Fevereiro",
+    "Imagem": "\\img\\personagens\\Lynette.jpg"
+  },
+  {
+    "Numero": 13,
+    "Nome": "Sucrose",
+    "Descricao": "Uma alquimista especializada em bioalquimia, ela também atua como assistente de Albedo, o alquimista chefe dos Cavaleiros de Favonius.",
+    "Elemento": [ "Anemo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "26 de Novembro",
+    "Imagem": "\\img\\personagens\\Sucrose.jpg"
+  },
+  {
+    "Numero": 14,
+    "Nome": "Venti",
+    "Descricao": "Venti é um bardo amante do vinho e de espírito livre em Mondstadt e o atual corpo mortal de Barbatos, o Arconte Anemo. Ele também é um personagem Anemo jogável em Genshin Impact.",
+    "Elemento": [ "Anemo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "16 de Junho",
+    "Imagem": "\\img\\personagens\\Venti.jpg"
+  },
+  {
+    "Numero": 15,
+    "Nome": "Xiao",
+    "Descricao": "Xiao (chinês: 魈 Xiāo, Demônio), Nome de Yaksha Alatus, é um adeptus e o único membro restante dos Cinco Yakshas enviados por Morax para subjugar os espíritos demoníacos que atormentavam Liyue. Ele atualmente mora no Albergue Wangshu, onde se isola das multidões e de interações humanas.",
+    "Elemento": [ "Anemo" ],
+    "Regiao": "Liyue",
+    "Aniversario": "17 de Abril",
+    "Imagem": "\\img\\personagens\\Xiao.jpg"
+  },
+  {
+    "Numero": 16,
+    "Nome": "Fischl",
+    "Descricao": "Fischl é uma investigadora da Guilda de Aventureiros de Mondstadt, acompanhado pelo corvo noturno Oz. Fischl afirma vir de um mundo além de Teyvat. Ela é uma aventureira ousada com teorias aparentemente bizarras que acabam se revelando verdadeiras.",
+    "Elemento": [ "Electro" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "27 de Maio",
+    "Imagem": "\\img\\personagens\\Fischl.jpg"
+  },
+  {
+    "Numero": 17,
+    "Nome": "Kuki Shinobu",
+    "Descricao": "Ela é a vice-líder da Gangue Arataki e responsável por consultas jurídicas, negociações comerciais, organização de banquetes e encomendação de vestuários.",
+    "Elemento": [ "Electro" ],
+    "Regiao": "Inazuma",
+    "Aniversario": "27 de Julho",
+    "Imagem": "\\img\\personagens\\Kuki_Shinobu.jpg"
+  },
+  {
+    "Numero": 18,
+    "Nome": "Lisa",
+    "Descricao": "Outrora uma grande maga reconhecida como o graduada mais ilustre da Academia Sumeru em 200 anos, Lisa voltou a Mondstadt para se tornar a humilde Bibliotecária dos Cavaleiros de Favonius.",
+    "Elemento": [ "Electro" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "9 de Junho",
+    "Imagem": "\\img\\personagens\\Lisa.jpg"
+  },
+  {
+    "Numero": 19,
+    "Nome": "Raiden",
+    "Descricao": "A Shogun Raiden é a composição de dois seres coexistindo em um só corpo: Ei, a atual Arconte Electro de Inazuma; e a Shogun, a marionete criada por Ei para atuar como governante de Inazuma em seu lugar.",
+    "Elemento": [ "Electro" ],
+    "Regiao": "Inazuma",
+    "Aniversario": "26 de Junho",
+    "Imagem": "\\img\\personagens\\Raiden.jpg"
+  },
+  {
+    "Numero": 20,
+    "Nome": "Yae Miko",
+    "Descricao": "Yae Miko (japonês: 八重神子 Yae Miko) também conhecida como Yae Guuji (japonês: 宮ぐう司じ Guuji, sacerdote chefe) ou Guuji é uma personagem Electro jogável em Genshin Impact. Ela é a Senhorita Guuji do Grande Santuário Narukami e proprietária da Editora Yae, que carrega seu sobrenome.",
+    "Elemento": [ "Electro" ],
+    "Regiao": "Inazuma",
+    "Aniversario": "27 de Junho",
+    "Imagem": "\\img\\personagens\\Yae_Miko.jpg"
+  },
+  {
+    "Numero": 21,
+    "Nome": "Alhaitham",
+    "Descricao": "O atual Escriba da Academia de Sumeru, um homem de grande inteligência e talento. Vive sua vida livre e despreocupado, sendo uma pessoa muito difícil de se encontrar.",
+    "Elemento": [ "Dendro" ],
+    "Regiao": "Sumeru",
+    "Aniversario": "11 de Fevereiro",
+    "Imagem": "\\img\\personagens\\Alhaitham.jpg"
+  },
+  {
+    "Numero": 22,
+    "Nome": "Baizhu",
+    "Descricao": "Dono do Chalé de Bubu. Ele anda sempre com sua cobra branca, Changsheng, pendurada no pescoço. Um grande conhecedor de medicina, suas verdadeiras intenções são um grande mistério.",
+    "Elemento": [ "Dendro" ],
+    "Regiao": "Liyue",
+    "Aniversario": "25 de Abril",
+    "Imagem": "\\img\\personagens\\Baizhu.jpg"
+  },
+  {
+    "Numero": 23,
+    "Nome": "Colei",
+    "Descricao": "Uma Guarda-Florestal em Treinamento que patrulha a Floresta Avidya. Por trás de sua personalidade entusiasmada, encontra-se uma personalidade bastante introvertida.",
+    "Elemento": [ "Dendro" ],
+    "Regiao": "Sumeru",
+    "Aniversario": "8 de Maio",
+    "Imagem": "\\img\\personagens\\Colei.jpg"
+  },
+  {
+    "Numero": 24,
+    "Nome": "Nahida",
+    "Descricao": "Nahida é uma personagem Dendro jogável em Genshin Impact. Ela é o corpo mortal da Lorde Menor Kusanali, atual Arconte Dendro.",
+    "Elemento": [ "Dendro" ],
+    "Regiao": "Sumeru",
+    "Aniversario": "27 de Outubro",
+    "Imagem": "\\img\\personagens\\Nahida.jpg"
+  },
+  {
+    "Numero": 25,
+    "Nome": "Tighnari",
+    "Descricao": "Um jovem pesquisador Amurta que conhece bastante de botânica e que atualmente atua como um Patrulheiro Florestal na Floresta Avidya. Ele é extremamente sincero com um bom coração - e muito bom na orientação até mesmo dos alunos mais monótonos.",
+    "Elemento": [ "Dendro" ],
+    "Regiao": "Sumeru",
+    "Aniversario": "29 de Dezembro",
+    "Imagem": "\\img\\personagens\\Tighnari.jpg"
+  },
+  {
+    "Numero": 26,
+    "Nome": "Eula",
+    "Descricao": "Capitã de Reconhecimento dos Cavaleiros de Favonius, conhecida como Cavaleira das Ondas. Eula vem de uma linhagem aristocrática e é descendente do infame e tirânico Clã Lawrence que foi destituída pelos Cavaleiros de Favonius, ainda assim ela se junta aos Cavaleiros por motivos desconhecidos.",
+    "Elemento": [ "Cryo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "25 de Outubro",
+    "Imagem": "\\img\\personagens\\Eula.jpg"
+  },
+  {
+    "Numero": 27,
+    "Nome": "Kaeya",
+    "Descricao": "Kaeya é um Capitão de Cavalaria dos Cavaleiros de Favonius. Ele é muito estimado pelo povo de Mondstadt - mesmo com todas as suas excentricidades e segredos.",
+    "Elemento": [ "Cryo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "30 de Novembro",
+    "Imagem": "\\img\\personagens\\Kaeya.jpg"
+  },
+  {
+    "Numero": 28,
+    "Nome": "Kamisato Ayaka",
+    "Descricao": "Ela é a filha mais velha do Clã Kamisato e irmã de Kamisato Ayato. Por ser educada, elegante e graciosa, as pessoas comuns não têm nada a dizer mal de Ayaka. Por causa de seu status social como a filha mais velha do Clã Kamisato da Comissão Yashiro e como Shirasagi Himegimi, Ayaka é vista como um modelo de perfeição.",
+    "Elemento": [ "Cryo" ],
+    "Regiao": "Inazuma",
+    "Aniversario": "28 de Setembro",
+    "Imagem": "\\img\\personagens\\Kamisato_Ayaka.jpg"
+  },
+  {
+    "Numero": 29,
+    "Nome": "Rosaria",
+    "Descricao": "Rosaria é uma personagem Cryo jogável em Genshin Impact. Ela é membro da Igreja de Favonius em Mondstadt.",
+    "Elemento": [ "Cryo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "24 de Janeiro",
+    "Imagem": "\\img\\personagens\\Rosaria.jpg"
+  },
+  {
+    "Numero": 30,
+    "Nome": "Wriothesley",
+    "Descricao": "Wriothesley é um personagem jogável Cryo em Genshin Impact. Ele aparece no Teaser de Prólogo Banquete do Desfecho.",
+    "Elemento": [ "Cryo" ],
+    "Regiao": "Fontaine",
+    "Aniversario": "23 de Novembro",
+    "Imagem": "\\img\\personagens\\Wriothesley.jpg"
+  },
+  {
+    "Numero": 31,
+    "Nome": "Albedo",
+    "Descricao": "O misterioso Albedo é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius, com Sucrose como sua assistente. Ele tem um desejo infinito de aprender sobre o mundo de Teyvat, estudando cuidadosamente todos os objetos ao seu redor.",
+    "Elemento": [ "Geo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "13 de Setembro",
+    "Imagem": "\\img\\personagens\\Albedo.jpg"
+  },
+  {
+    "Numero": 32,
+    "Nome": "Gorou",
+    "Descricao": "Gorou (japonês: ゴロ - Goroo) é um personagem jogável Geo em Genshin Impact. Ele faz parte da Resistência de Sangonomiya contra o Decreto de Caça à Visão proclamado por Baal.",
+    "Elemento": [ "Geo" ],
+    "Regiao": "Inazuma",
+    "Aniversario": "18 de Maio",
+    "Imagem": "\\img\\personagens\\Gorou.jpg"
+  },
+  {
+    "Numero": 33,
+    "Nome": "Itto",
+    "Descricao": "Ele é conhecido por sua rivalidade unilateral com Kujou Sara depois que ela o derrotou e tomou sua Visão. Um descendente do oni carmesim, Itto também é o líder e fundador da Gangue Arataki.",
+    "Elemento": [ "Geo" ],
+    "Regiao": "Inazuma",
+    "Aniversario": "1 de Junho",
+    "Imagem": "\\img\\personagens\\Itto.jpg"
+  },
+  {
+    "Numero": 34,
+    "Nome": "Ningguang",
+    "Descricao": "Ningguang é a Tianquan dos Qixing de Liyue. Ela detém uma posição de riqueza além de muitas outras em Teyvat. A posição e as habilidades de Ningguang permitiram que ela construísse sua maior conquista, a flutuante Câmara de Jade que zela por toda Liyue.",
+    "Elemento": [ "Geo" ],
+    "Regiao": "Liyue",
+    "Aniversario": "26 de Agosto",
+    "Imagem": "\\img\\personagens\\Ningguang.jpg"
+  },
+  {
+    "Numero": 35,
+    "Nome": "Noelle",
+    "Descricao": "Extremamente forte e confiável, Noelle é considerada a donzela de todas as donzelas nos Cavaleiros de Favonius , com muitos pensando que ela tem a capacidade de estar em todos os lugares ao mesmo tempo. Ela é teimosa, porém, e está disposta a arriscar sua vida desnecessariamente a qualquer momento para ajudar alguém. Ela tentou muitas vezes se juntar às fileiras dos Cavaleiros de Favonius para realizar seu sonho de se tornar uma cavaleira de pleno direito, mas falhou todas as vezes até agora.",
+    "Elemento": [ "Geo" ],
+    "Regiao": "Mondstadt",
+    "Aniversario": "21 de Março",
+    "Imagem": "\\img\\personagens\\Noelle.jpg"
+  }
+]
