@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Wiki_Genshin.Models;
 
@@ -15,7 +16,20 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        List<Personagem> personagens = [];
+        using (StreamReader leitor = new("Data\\personagens.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            personagens = JsonSerializer.Deserialize<List<Personagem>>(dados);
+        }
+        List<Elemento> elementos = [];
+        using (StreamReader leitor = new("Data\\elementos.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            elementos = JsonSerializer.Deserialize<List<Elemento>>(dados);
+        }
+        ViewData["Elementos"] = elementos;
+        return View(personagens);
     }
 
     public IActionResult Privacy()
