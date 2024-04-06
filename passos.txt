@@ -1,0 +1,10 @@
+Configuração da Conta local do GIT:
+    git config --global user.name Conlley-Passarelli
+    git config --global user.email conlleypassarelli@gmail.com
+
+Criar um projeto AspNet MVC
+    dotnet new mvc -o Wiki-Genshin
+    
+Executar o projeto
+    dotnet run
+    dotnet watch run

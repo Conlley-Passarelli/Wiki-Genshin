@@ -1,5 +1,5 @@
 .card img {
-    background-color: lightgray;
+    background-color: white;
 }
 
 .card:hover {
@@ -11,4 +11,11 @@
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.card-img-top{
+    width: 50%;
+    height: 300;
+    display: flex;
+    align-self: center;
 }

@@ -199,12 +199,12 @@
   },
   {
     "Numero": 23,
-    "Nome": "Colei",
-    "Descricao": "Uma Guarda-Florestal em Treinamento que patrulha a Floresta Avidya. Por trás de sua personalidade entusiasmada, encontra-se uma personalidade bastante introvertida.",
+    "Nome": "Kirara",
+    "Descricao": "Uma mensageira do Komaniya Express, empresa de entregas em Inazuma. Uma Nekomata que ama seu trabalho e a sociedade humana.",
     "Elemento": [ "Dendro" ],
-    "Regiao": "Sumeru",
-    "Aniversario": "8 de Maio",
-    "Imagem": "\\img\\personagens\\Colei.jpg"
+    "Regiao": "Inazuma",
+    "Aniversario": "22 de Janeiro",
+    "Imagem": "\\img\\personagens\\Kirara.jpg"
   },
   {
     "Numero": 24,
@@ -217,12 +217,12 @@
   },
   {
     "Numero": 25,
-    "Nome": "Tighnari",
-    "Descricao": "Um jovem pesquisador Amurta que conhece bastante de botânica e que atualmente atua como um Patrulheiro Florestal na Floresta Avidya. Ele é extremamente sincero com um bom coração - e muito bom na orientação até mesmo dos alunos mais monótonos.",
+    "Nome": "Yaoyao",
+    "Descricao": "A discípula mais jovem da Adeptus Corista. Uma pequena adulta carinhosa e gentil.",
     "Elemento": [ "Dendro" ],
-    "Regiao": "Sumeru",
-    "Aniversario": "29 de Dezembro",
-    "Imagem": "\\img\\personagens\\Tighnari.jpg"
+    "Regiao": "Liyue",
+    "Aniversario": "6 de Março",
+    "Imagem": "\\img\\personagens\\Yaoyao.jpg"
   },
   {
     "Numero": 26,
