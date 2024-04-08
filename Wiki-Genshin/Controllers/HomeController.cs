@@ -32,6 +32,35 @@ public class HomeController : Controller
         return View(personagens);
     }
 
+    public IActionResult Details(int id)
+    {
+        List<Personagem> personagens = [];
+        using (StreamReader leitor = new("Data\\personagens.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            personagens = JsonSerializer.Deserialize<List<Personagem>>(dados);
+        }
+        List<Elemento> elementos = [];
+        using (StreamReader leitor = new("Data\\elementos.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            elementos = JsonSerializer.Deserialize<List<Elemento>>(dados);
+        }
+        DetailsVM details = new() {
+            Elementos = elementos,
+            Atual = personagens.FirstOrDefault(p => p.Numero == id),
+            Anterior = personagens.OrderByDescending(p => p. Numero).FirstOrDefault(p => p.Numero < id),
+            Proximo = personagens.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
+        };
+        return View(details);
+        
+        // ViewData["Elementos"] = elementos;
+        // var personagem = personagens
+        //     .Where (p => p.Numero == id)
+        //     .FirstOrDefault();
+        // return View(personagem);
+    }
+
     public IActionResult Privacy()
     {
         return View();
