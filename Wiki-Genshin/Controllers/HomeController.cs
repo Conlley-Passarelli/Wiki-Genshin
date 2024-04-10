@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Wiki_Genshin.Models;
@@ -16,50 +17,42 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        List<Personagem> personagens = [];
-        using (StreamReader leitor = new("Data\\personagens.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            personagens = JsonSerializer.Deserialize<List<Personagem>>(dados);
-        }
-        List<Elemento> elementos = [];
-        using (StreamReader leitor = new("Data\\elementos.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            elementos = JsonSerializer.Deserialize<List<Elemento>>(dados);
-        }
+        List<Personagem> personagens = GetPersonagens();
+        List<Elemento> elementos = GetElementos();
         ViewData["Elementos"] = elementos;
         return View(personagens);
     }
 
     public IActionResult Details(int id)
     {
-        List<Personagem> personagens = [];
-        using (StreamReader leitor = new("Data\\personagens.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            personagens = JsonSerializer.Deserialize<List<Personagem>>(dados);
-        }
-        List<Elemento> elementos = [];
-        using (StreamReader leitor = new("Data\\elementos.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            elementos = JsonSerializer.Deserialize<List<Elemento>>(dados);
-        }
+        List<Personagem> personagens = GetPersonagens();
+        List<Elemento> elementos = GetElementos();
         DetailsVM details = new() {
             Elementos = elementos,
             Atual = personagens.FirstOrDefault(p => p.Numero == id),
-            Anterior = personagens.OrderByDescending(p => p. Numero).FirstOrDefault(p => p.Numero < id),
+            Anterior = personagens.OrderByDescending(p => p.Numero).FirstOrDefault(p => p.Numero < id),
             Proximo = personagens.OrderBy(p => p.Numero).FirstOrDefault(p => p.Numero > id),
         };
-        return View(details);
-        
-        // ViewData["Elementos"] = elementos;
-        // var personagem = personagens
-        //     .Where (p => p.Numero == id)
-        //     .FirstOrDefault();
-        // return View(personagem);
+            return View(details);
     }
+        
+        private List<Personagem> GetPersonagens()
+        {
+            using (StreamReader leitor = new("Data\\personagens.json"))
+            {
+                string dados = leitor.ReadToEnd();
+                return JsonSerializer.Deserialize<List<Personagem>>(dados);
+            }
+        }
+
+        private List<Elemento> GetElementos()
+        {
+            using (StreamReader leitor = new("Data\\elementos.json"))
+            {
+                string dados = leitor.ReadToEnd();
+                return JsonSerializer.Deserialize<List<Elemento>>(dados);
+            }
+        }
 
     public IActionResult Privacy()
     {
