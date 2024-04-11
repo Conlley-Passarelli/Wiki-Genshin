@@ -36,3 +36,17 @@ h1 {
 .text-dark {
     color: black;
 } */
+
+.corfundo {
+    background-color: #8a8d8f;
+
+}
+
+.corfundocinza {
+    background-color: whitesmoke;
+}
+
+.tamanhoImagem {
+    width: 32px;
+    height: 32px;
+}
